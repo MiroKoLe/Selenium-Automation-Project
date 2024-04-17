@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Drawing.Imaging;
 
 namespace Selenium_Automation_Project
 {
@@ -15,7 +16,7 @@ namespace Selenium_Automation_Project
 
         [TestMethod]
         public void LoginTest() 
-        {jhgjghjghjgh
+        {
             var url = "http://saucedemo.com";
             var expected_url = url;
             driver.Navigate().GoToUrl(url);

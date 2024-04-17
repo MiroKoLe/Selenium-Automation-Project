@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Selenium_Automation_Project;
+
+TestClass testClass = new TestClass();
+
+testClass.LoginTest();
